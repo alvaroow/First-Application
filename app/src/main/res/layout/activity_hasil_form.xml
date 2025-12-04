@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hasilFormActivity"
+    android:layout_margin="16dp">
+
+
+            <TextView
+                android:id="@+id/tvhasilNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:text="Nama : "
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/tvhasilAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Alamat : "
+                android:textSize="19sp"/>
+
+            <TextView
+                android:id="@+id/tvhasilNoHp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="No Hp : "
+                android:textSize="19sp"/>
+
+            <TextView
+                android:id="@+id/tvAgama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Agama : "
+                android:textSize="19sp"/>
+
+            <TextView
+                android:id="@+id/tvGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Jenis Kelamin : "
+                android:textSize="19sp"/>
+
+            <TextView
+                android:id="@+id/tvHobi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Hobi : "
+                android:textSize="19sp"/>
+
+
+</LinearLayout>

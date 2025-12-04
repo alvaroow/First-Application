@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">xellzProject.</string>
+    <string-array name="Agama">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katholik</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+        <item>Konghuchu</item>
+    </string-array>
+
+    <string-array name="Varian">
+        <item>Fruity</item>
+        <item>Chocolate</item>
+        <item>Cheese</item>
+    </string-array>
+
+    <string-array name="Varian2">
+        <item>Glaze</item>
+        <item>Chocolate</item>
+        <item>Cheese</item>
+    </string-array>
+
+    <string-array name="Suhu">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+
+</resources>

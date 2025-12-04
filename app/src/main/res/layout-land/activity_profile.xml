@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:layout_margin="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alvaro Danendra"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/tvScndNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bismillah *Software Engineer*"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="@id/tvNama"
+        app:layout_constraintEnd_toEndOf="@id/tvNama"
+        app:layout_constraintTop_toBottomOf="@+id/tvNama"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civLogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="@id/tvNama"
+            app:layout_constraintEnd_toEndOf="@id/tvNama"
+            app:layout_constraintTop_toBottomOf="@id/tvScndNama"
+            android:src="@drawable/profil"/>
+
+        <TextView
+            android:id="@+id/tvQuotes"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:text="Hidup itu sekali, dan mati itu pasti, bisa jadi nanti, atau setelah ini."
+            app:layout_constraintStart_toStartOf="@id/tvNama"
+            app:layout_constraintEnd_toEndOf="@id/tvNama"
+            app:layout_constraintTop_toBottomOf="@id/civLogo"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Menantang Rasi Bintang - FSTVLST)"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@id/tvNama"
+            app:layout_constraintEnd_toEndOf="@id/tvNama"
+            app:layout_constraintTop_toBottomOf="@id/tvQuotes"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvData"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="28dp"
+            android:backgroundTint="@color/cardparent"
+            app:cardCornerRadius="10dp"
+            android:layout_marginStart="20dp"
+            app:cardElevation="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvNama"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:id="@+id/tvSekolah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Sekolah"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tvSmk6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="SMK Negri 6 SKA"
+                    android:textSize="16dp"
+                    app:layout_constraintTop_toTopOf="@id/tvSekolah"
+                    app:layout_constraintBottom_toBottomOf="@id/tvSekolah"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tvKelas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Kelas"
+                    android:textSize="20dp"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvSekolah" />
+
+                <TextView
+                    android:id="@+id/tvXirpl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="XI RPL"
+                    android:textSize="16dp"
+                    app:layout_constraintTop_toTopOf="@id/tvKelas"
+                    app:layout_constraintBottom_toBottomOf="@id/tvKelas"
+                    app:layout_constraintTop_toBottomOf="@id/tvSmk6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/tvKelahiran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kelahiran"
+                    android:textSize="20dp"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toBottomOf="@id/tvKelas"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17, Oktober, 2008"
+                    android:textSize="16dp"
+                    app:layout_constraintTop_toTopOf="@id/tvKelahiran"
+                    app:layout_constraintBottom_toBottomOf="@id/tvKelahiran"
+                    app:layout_constraintTop_toBottomOf="@id/tvXirpl"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="20dp"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvKelahiran"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Laki - laki"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/tvGender"
+                    app:layout_constraintTop_toTopOf="@id/tvGender" />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvData3"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginVertical="28dp"
+            app:layout_constraintTop_toBottomOf="@id/cvData"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvNama"
+            android:backgroundTint="@color/cardparent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                >
+
+                <TextView
+                    android:id="@+id/tvSosmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sosial Media"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civWa"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/logowa"
+                    android:layout_marginTop="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/tvSosmed"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+62-813-9249-1505"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintStart_toEndOf="@id/civWa"
+                    app:layout_constraintTop_toTopOf="@id/civWa"
+                    app:layout_constraintBottom_toBottomOf="@id/civWa"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civIg"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/logoig"
+                    app:layout_constraintTop_toBottomOf="@id/civWa"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="alvarootng_"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintStart_toEndOf="@id/civIg"
+                    app:layout_constraintTop_toTopOf="@id/civIg"
+                    app:layout_constraintBottom_toBottomOf="@id/civIg"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civGithub"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/logogithub"
+                    app:layout_constraintTop_toBottomOf="@id/civIg"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="alvaroow"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintStart_toEndOf="@id/civGithub"
+                    app:layout_constraintTop_toTopOf="@id/civGithub"
+                    app:layout_constraintBottom_toBottomOf="@id/civGithub"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civEmail"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/logoemail"
+                    app:layout_constraintTop_toBottomOf="@id/civGithub"
+                    tools:ignore="MissingConstraints"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="alvaro1008@gmail.com"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    app:layout_constraintStart_toEndOf="@id/civEmail"
+                    app:layout_constraintTop_toTopOf="@id/civEmail"
+                    app:layout_constraintBottom_toBottomOf="@id/civEmail"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
