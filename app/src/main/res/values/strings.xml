@@ -27,5 +27,64 @@
         <item>Kelvin</item>
     </string-array>
 
+    <string name = "Formulir">Formulir</string>
+    <string name = "Kalkulator">Kalkulator</string>
+    <string name = "WarungKopi">Warung Kopi</string>
+    <string name = "KonversiSuhu">Konversi Suhu</string>
+    <string name="ProfilSaya">Profil Saya</string>
+    <string name="Keluar">Keluar</string>
 
+    <string name="masukkan_nama">Masukkan Nama Anda</string>
+    <string name="masukkan_alamat">Masukkan Alamat Anda</string>
+    <string name="masukkan_nomor">Masukkan Nomor Anda</string>
+    <string name="simpan">Simpan</string>
+    <string name="agama">Agama</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="hobi">Hobi</string>
+    <string name="membaca">Membaca</string>
+    <string name="makan">Makan</string>
+    <string name="tidur">Tidur</string>
+    <string name="olahraga">Olahraga</string>
+    
+    <string name="sekolah">Sekolah</string>
+    <string name="kelas">Kelas</string>
+    <string name="kelahiran">Kelahiran</string>
+    <string name="sosial_media">Sosial Media</string>
+    <string name="laki_laki">Laki - Laki</string>
+    <string name="nama_sekolah">SMK Negri 6 SKA</string>
+    <string name="tanggal_lahir">17, Oktober, 2008</string>
+    <string name="quotes">Hidup itu sekali, dan mati itu pasti, bisa jadi nanti, atau setelah ini.</string>
+    <string name="deskripsi_profil">Bismillah *Software Engineer*</string>
+    <string name="nama_kelas">XI RPL</string>
+    <string name="sumber_quotes">(Menantang Rasi Bintang - FSTVLST)</string>
+
+    <string name="masukkan_suhu">Masukkan Suhu</string>
+    <string name="hasil_suhu">Hasil Suhu</string>
+    <string name="hitung">Hitung</string>
+
+    <string name="ac">AC</string>
+    <string name="del">DEL</string>
+
+    <string name="nama_pemesan">Nama Pemesan</string>
+    <string name="minuman">Minuman</string>
+    <string name="makanan">Makanan</string>
+    <string name="lihat_lainnya">Lihat Lainnya</string>
+    <string name="americano">Americano</string>
+    <string name="hot">Panas</string>
+    <string name="ice">Es</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="caffe_latte">Caffe Latte</string>
+    <string name="french_toast">Roti Bakar</string>
+    <string name="doughnut">Donat</string>
+    <string name="selesai">Selesai</string>
+
+    <string name="nama_cust_default">Nama Cust : -</string>
+    <string name="item">Item</string>
+    <string name="harga">Harga</string>
+    <string name="daftar_item_default">Daftar Item...</string>
+    <string name="satu">1</string>
+    <string name="rp_0">Rp 0</string>
+    <string name="total_rp_0">Total: Rp 0</string>
 </resources>

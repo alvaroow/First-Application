@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:hint="Nama Pemesan"
+        android:hint="@string/nama_pemesan"
         app:boxBackgroundMode="outline"
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
@@ -38,7 +38,7 @@
         android:id="@+id/tvMinuman"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bevereges"
+        android:text="@string/minuman"
         app:layout_constraintTop_toBottomOf="@id/layoutNama"
         android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
@@ -49,7 +49,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Lihat Lainnya"
+        android:hint="@string/lihat_lainnya"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutNama"
         android:layout_marginTop="24dp"
@@ -84,7 +84,7 @@
                 android:id="@+id/tvAmric"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Americano"
+                android:text="@string/americano"
                 android:textStyle="bold"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp" />
@@ -97,13 +97,13 @@
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
-                        android:text="Hot"
+                        android:text="@string/hot"
                         android:textSize="12dp"
                         android:layout_marginStart="5dp"/>
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
-                        android:text="Ice"
+                        android:text="@string/ice"
                         android:textSize="12dp"
                         android:layout_marginStart="15dp"/>
                 </RadioGroup>
@@ -123,7 +123,7 @@
                     android:id="@+id/etJumlahAmric"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Jumlah"
+                    android:hint="@string/jumlah"
                     android:textAlignment="center"
                     android:inputType="number"
                     android:layout_marginEnd="10dp"
@@ -168,7 +168,7 @@
                 android:id="@+id/tvLatte"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Caffe Latte"
+                android:text="@string/caffe_latte"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:textStyle="bold"/>
@@ -181,13 +181,13 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:text="Hot"
+                    android:text="@string/hot"
                     android:textSize="12dp"
                     android:layout_marginStart="5dp"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:text="Ice"
+                    android:text="@string/ice"
                     android:textSize="12dp"
                     android:layout_marginStart="15dp"/>
             </RadioGroup>
@@ -206,7 +206,7 @@
                 android:id="@+id/etJumlahLatte"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Jumlah"
+                android:hint="@string/jumlah"
                 android:textAlignment="center"
                 android:layout_marginEnd="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -223,7 +223,7 @@
         android:id="@+id/tvMakanan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Dessert"
+        android:text="@string/makanan"
         app:layout_constraintTop_toBottomOf="@id/MenuMinuman2"
         android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
@@ -234,7 +234,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Lihat Lainnya"
+        android:hint="@string/lihat_lainnya"
         android:textSize="13dp"
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -269,7 +269,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="French Toast"
+                android:text="@string/french_toast"
                 android:textStyle="bold"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"/>
@@ -294,7 +294,7 @@
                 android:id="@+id/etJumlahToast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Jumlah"
+                android:hint="@string/jumlah"
                 android:textAlignment="center"
                 android:layout_marginEnd="10dp"
                 android:inputType="number"
@@ -335,7 +335,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Doughnut"
+                android:text="@string/doughnut"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:textStyle="bold"/>
@@ -360,7 +360,7 @@
                 android:id="@+id/etJumlahDonut"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Jumlah"
+                android:hint="@string/jumlah"
                 android:textAlignment="center"
                 android:layout_marginEnd="10dp"
                 android:background="@null"
@@ -378,7 +378,7 @@
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Selesai"
+        android:text="@string/selesai"
         android:textColor="@color/logoawal"
         android:backgroundTint="@color/cardparent"
         app:layout_constraintTop_toBottomOf="@id/MenuMakanan2"

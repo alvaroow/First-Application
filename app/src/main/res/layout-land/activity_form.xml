@@ -23,7 +23,7 @@
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
-        android:hint="Masukkan Nama Anda"
+        android:hint="@string/masukkan_nama"
         app:boxCornerRadiusTopStart="10dp"
         app:endIconMode="clear_text">
 
@@ -44,7 +44,7 @@
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
         app:endIconMode="clear_text"
-        android:hint="Masukkan Alamat Anda">
+        android:hint="@string/masukkan_alamat">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -63,7 +63,7 @@
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
         app:endIconMode="clear_text"
-        android:hint="Masukkan Nomor Anda">
+        android:hint="@string/masukkan_nomor">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -80,7 +80,7 @@
         android:layout_marginTop="10dp"
         android:textColor="@color/logoawal"
         android:backgroundTint="@color/cardparent"
-        android:text="Simpan" />
+        android:text="@string/simpan" />
 
         <TextView
         android:id="@+id/tvAgama"
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etNomor"
         android:layout_margin="10dp"
-        android:text="Agama"
+        android:text="@string/agama"
         android:textSize="17sp" />
 
     <Spinner
@@ -107,7 +107,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/spinneragama"
         android:layout_margin="10dp"
-        android:text="Jenis Kelamin"
+        android:text="@string/jenis_kelamin"
         android:textSize="17sp" />
 
     <RadioGroup
@@ -124,14 +124,14 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginStart="30dp"
-            android:text="Pria" />
+            android:text="@string/pria" />
 
         <RadioButton
             android:id="@+id/rbwanita"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginStart="100dp"
-            android:text="Wanita" />
+            android:text="@string/wanita" />
     </RadioGroup>
 
 
@@ -141,7 +141,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/rgGender"
         android:layout_margin="10dp"
-        android:text="Hobi"
+        android:text="@string/hobi"
         android:textSize="17sp" />
 
     <CheckBox
@@ -150,7 +150,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvHobi"
         android:layout_marginStart="10dp"
-        android:text="Membaca" />
+        android:text="@string/membaca" />
 
     <CheckBox
         android:id="@+id/cbMakan"
@@ -158,7 +158,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/cbMembaca"
         android:layout_marginStart="10dp"
-        android:text="Makan" />
+        android:text="@string/makan" />
 
     <CheckBox
         android:id="@+id/cbTidur"
@@ -167,7 +167,7 @@
         android:layout_below="@+id/tvHobi"
         android:layout_marginStart="10dp"
         android:layout_toEndOf="@id/cbMakan"
-        android:text="Tidur" />
+        android:text="@string/tidur" />
 
     <CheckBox
         android:id="@+id/cbOlahraga"
@@ -176,7 +176,7 @@
         android:layout_below="@+id/cbTidur"
         android:layout_marginStart="10dp"
         android:layout_toEndOf="@id/cbMakan"
-        android:text="Olahraga" />
+        android:text="@string/olahraga" />
 
     </RelativeLayout>
 </ScrollView>

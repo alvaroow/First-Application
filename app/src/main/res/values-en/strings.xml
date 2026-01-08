@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">xellzProject.</string>
+
+    <string name = "Formulir">Form</string>
+    <string name = "Kalkulator">Calculator</string>
+    <string name = "WarungKopi">Coffee Shop</string>
+    <string name = "KonversiSuhu">Temp Conversion</string>
+    <string name="ProfilSaya">My Profile</string>
+    <string name="Keluar">Exit</string>
+
+    <string name="masukkan_nama">Enter Your Name</string>
+    <string name="masukkan_alamat">Enter Your Address</string>
+    <string name="masukkan_nomor">Enter Your Number</string>
+    <string name="simpan">Save</string>
+    <string name="agama">Religion</string>
+    <string name="jenis_kelamin">Gender</string>
+    <string name="pria">Male</string>
+    <string name="wanita">Female</string>
+    <string name="hobi">Hobby</string>
+    <string name="membaca">Reading</string>
+    <string name="makan">Eating</string>
+    <string name="tidur">Sleeping</string>
+    <string name="olahraga">Sports</string>
+
+    <string name="sekolah">School</string>
+    <string name="kelas">Class</string>
+    <string name="kelahiran">Birth</string>
+    <string name="sosial_media">Social Media</string>
+    <string name="laki_laki">Male</string>
+    <string name="nama_sekolah">SMK Negri 6 SKA</string>
+    <string name="tanggal_lahir">October 17, 2008</string>
+    <string name="quotes">Life is once, and death is certain, it could be later, or after this.</string>
+    
+    <string name="masukkan_suhu">Enter Temperature</string>
+    <string name="hasil_suhu">Result</string>
+    <string name="hitung">Calculate</string>
+
+    <string name="ac">AC</string>
+    <string name="del">DEL</string>
+
+    <string name="nama_pemesan">Customer Name</string>
+    <string name="minuman">Beverages</string>
+    <string name="makanan">Dessert</string>
+    <string name="lihat_lainnya">See More</string>
+    <string name="americano">Americano</string>
+    <string name="hot">Hot</string>
+    <string name="ice">Ice</string>
+    <string name="jumlah">Qty</string>
+    <string name="caffe_latte">Caffe Latte</string>
+    <string name="french_toast">French Toast</string>
+    <string name="doughnut">Doughnut</string>
+    <string name="selesai">Done</string>
+
+    <string name="nama_cust_default">Cust Name : -</string>
+    <string name="item">Item</string>
+    <string name="harga">Price</string>
+    <string name="daftar_item_default">Item List...</string>
+    <string name="satu">1</string>
+    <string name="rp_0">Rp 0</string>
+    <string name="total_rp_0">Total: Rp 0</string>
+</resources>
